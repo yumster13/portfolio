@@ -1,0 +1,147 @@
+body{
+    text-align: center;
+}
+.square{
+    height: 30px;
+    width: 30px;
+}
+.espace{
+    background-image: url(Images/ground.png);
+    /*background-color: blue;*/
+}
+.boite{
+    background-image: url(Images/box.png);
+    /*background-color: green;*/
+}
+.cible{
+    background-image: url(Images/target.png),url(Images/ground.png);
+    /*background-color: red;*/
+}
+.boiteSurCible{
+    background-image: url(Images/box-on-target.png);
+    background-color: black;
+}
+.mur{
+    background-image: url(Images/wall.png);
+    background-color: grey;
+}
+.joueur{
+    background-image: url(Images/player-front.png),url(Images/ground.png) ;
+    background-color: blueviolet;
+}
+@keyframes playerBas {
+    0%,100% {background-image: url(Images/player-front.png),url(Images/ground.png) ;}
+    50%{background-image: url(Images/player-front2.png),url(Images/ground.png) ;}
+}
+.joueurBas{
+    background-image: url(Images/player-front.png),url(Images/ground.png) ;
+    animation-name:playerBas;
+    animation-duration: 0.75s;
+    animation-iteration-count: infinite;
+    /*background-color: blueviolet;*/
+}
+@keyframes playerRight {
+    0%,100% {background-image: url(Images/player-right.png),url(Images/ground.png) ;}
+    50%{background-image: url(Images/player-right2.png),url(Images/ground.png) ;}
+}
+.joueurRight{
+    background-image: url(Images/player-right.png),url(Images/ground.png) ;
+    animation-name:playerRight;
+    animation-duration: 0.75s;
+    animation-iteration-count: infinite;
+    /*background-color: blueviolet;*/
+}
+@keyframes playerLeft {
+    0%,100% {background-image: url(Images/player-left.png),url(Images/ground.png) ;}
+    50%{background-image: url(Images/player-left2.png),url(Images/ground.png) ;}
+}
+.joueurLeft{
+    background-image: url(Images/player-left.png),url(Images/ground.png) ;
+    animation-name:playerLeft;
+    animation-duration: 0.75s;
+    animation-iteration-count: infinite;
+    /*background-color: blueviolet;*/
+}
+@keyframes playerUp {
+    0%,100% {background-image: url(Images/player-up.png),url(Images/ground.png) ;}
+    50%{background-image: url(Images/player-up2.png),url(Images/ground.png) ;}
+}
+.joueurUp{
+    background-image: url(Images/player-up.png),url(Images/ground.png) ;
+    animation-name:playerUp;
+    animation-duration: 0.75s;
+    animation-iteration-count: infinite;
+    /*background-color: blueviolet;*/
+}
+#world{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#world div{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Modal Content */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+  }
+  .modal-body {padding: 2px 16px;}

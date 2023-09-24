@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Sokoban - Webg2</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/levels.js"></script>
+  <script src="scripts/state.js"></script>
+  <script src="scripts/game.js"></script>
+  <link rel="icon" type="image/x-icon" href="styles/Images/box.png">
+</head>
+
+<body>
+  <h1>Sokoban</h1>
+  <div id="world"></div>
+  <div id="compteur"></div>
+  <div id="niveau"></div>
+  <div id="FinNiv"></div>
+  <button type="button" id="restart">Restart</button>
+  <button type="button" id="aide">aide</button>
+  <button type="button" id="annulation">Annulation</button>
+  <p id="fail"></p>
+  <label for="levels">Choose a level:</label>
+  <select name="levels" id="niv">
+    <option value="1">Niveau 1</option>
+    <option value="2">Niveau 2</option>
+    <option value="3">Niveau 3</option>
+    <option value="4">Niveau 4</option>
+    <option value="5">Niveau 5</option>
+    <option value="6">Niveau 6</option>
+  </select>
+  <button type="button" id="charger">Lancer le niveau</button>
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>Help for Sokoban</h2>
+      </div>
+      <div class="modal-body">
+        <p>How a level starts</p>
+        <img src="styles/Images/help-level.png">
+        <p>Push the arrow keys to move</p>
+        <img src="styles/Images/help-push.png">
+        <p>How the level ends</p>
+        <img src="styles/Images/help-win.png">
+      </div>
+    </div>
+
+  </div>
+
+  <footer>Lecky-Thompson William 58412</footer>
+</body>
+
+</html>
