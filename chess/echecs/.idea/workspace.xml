@@ -4,7 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75d9cb57-ab01-4894-ad63-b446b064addd" name="Changes" comment="" />
+    <list default="true" id="75d9cb57-ab01-4894-ad63-b446b064addd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/target/classes/g58412/chess/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/g58412/chess/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/g58412/chess/main/Chess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/g58412/chess/main/Chess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/g58412/chess/model/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/g58412/chess/model/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/g58412/chess/model/Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/g58412/chess/model/Color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/g58412/chess/model/Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/g58412/chess/model/Direction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/g58412/chess/model/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/g58412/chess/model/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/g58412/chess/model/GameState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/g58412/chess/model/GameState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/g58412/chess/model/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/g58412/chess/model/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/g58412/chess/model/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/g58412/chess/model/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/g58412/chess/model/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/g58412/chess/model/Position.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/g58412/chess/model/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/g58412/chess/model/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/g58412/chess/model/pieces/Bishop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/g58412/chess/model/pieces/Bishop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/g58412/chess/model/pieces/FlyingBishop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/g58412/chess/model/pieces/FlyingBishop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/g58412/chess/model/pieces/King.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/g58412/chess/model/pieces/King.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/g58412/chess/model/pieces/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/g58412/chess/model/pieces/Knight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/g58412/chess/model/pieces/Pawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/g58412/chess/model/pieces/Pawn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/g58412/chess/model/pieces/Piece.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/g58412/chess/model/pieces/Piece.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/g58412/chess/model/pieces/Queen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/g58412/chess/model/pieces/Queen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/g58412/chess/model/pieces/Rook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/g58412/chess/model/pieces/Rook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/g58412/chess/view/TextView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/g58412/chess/view/TextView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/g58412/chess/view/TextView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/g58412/chess/view/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/g58412/chess/view/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/g58412/chess/model/BoardTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/g58412/chess/model/BoardTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/g58412/chess/model/GameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/g58412/chess/model/GameTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/g58412/chess/model/PieceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/g58412/chess/model/PieceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/g58412/chess/model/PositionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/g58412/chess/model/PositionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/g58412/chess/model/pieces/BishopTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/g58412/chess/model/pieces/BishopTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/g58412/chess/model/pieces/FlyingBishopTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/g58412/chess/model/pieces/FlyingBishopTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/g58412/chess/model/pieces/KingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/g58412/chess/model/pieces/KingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/g58412/chess/model/pieces/KnightTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/g58412/chess/model/pieces/KnightTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/g58412/chess/model/pieces/QueenTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/g58412/chess/model/pieces/QueenTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/g58412/chess/model/pieces/RookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/g58412/chess/model/pieces/RookTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,13 +62,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/yumst/OneDrive/Documents/portfolio/chess/echecs"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/yumst/OneDrive/Documents/portfolio/chess/echecs&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
