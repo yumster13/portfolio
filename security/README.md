@@ -1,7 +1,4 @@
 # Security
-## Members
-58412 Lecky-Thompson William
-58744 Taha Ahmed
 
 # Vernam & Cesar cypher
 
